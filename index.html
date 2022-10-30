@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HTML/CSS -Task（Flexbox）-</title>
+</head>
+<body>
+    <!-- img -->
+    <img class="logoImg" src="4eachblog_logo.jpg">
+    <p>Flexboxを利用してレイアウト設定</p>
+    <header>
+        <!-- メニュー -->
+        <ul>
+            <li>トップ</li>
+            <li>プロフィール</li>
+            <li>4eachについて</li>
+            <li>登録フォーム</li>
+            <li>問い合わせ</li>
+            <li>その他</li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="mainVisual">
+            <!-- 見出し -->
+            <h1>プログラミングに役立つ書籍</h1>
+            <!-- 日付 -->
+            <p> 2017年 1月 15日 </p>
+            <!-- img -->
+            <img width="100%" src="office.jpg">
+            <!-- コメント -->
+            <p>4eachはインターノウスが提供するオンラインでプログラミングが勉強できるeラーニングシステムです。</p>
+            <!-- 小見出し -->
+            <p>記事中身</p>
+            <!--  
+                FlexBox にてレイアウト設定
+                ８img　を折り返し表示
+             -->
+            <div class="grayClass">
+                <div class="imgCommentsGroup">
+                    <img src="pic1.jpg">
+                    <p class="comment">ドメインの取得方法</p>
+                </div>
+                <div class="imgCommentsGroup">
+                    <img src="pic2.jpg">
+                    <p class="comment">快適な職場環境</p>
+                </div>
+                <div class="imgCommentsGroup">
+                    <img src="pic3.jpg">
+                    <p class="comment">Linuxの基礎</p>
+                </div>
+                <div class="imgCommentsGroup">
+                    <img src="pic4.jpg">
+                    <p class="comment">マーケティング入門</p>
+                </div>
+                <div class="imgCommentsGroup">
+                    <img src="pic5.jpg">
+                    <p class="comment">アクティブラーニング</p>
+                </div>
+                <div class="imgCommentsGroup">
+                    <img src="pic6.jpg">
+                    <p class="comment">CSSの効率的な勉強方法</p>
+                </div>
+                <div class="imgCommentsGroup">
+                    <img src="pic7.jpg">
+                    <p class="comment">リーダブルコードとは</p>
+                </div>
+                <div class="imgCommentsGroup">
+                    <img src="pic8.jpg">
+                    <p class="comment">HTML5の可能性</p>
+                </div>
+            </div>
+        </div>
+        <div class="maininfo">
+            <!-- 小タイトル + 箇条書きリスト -->
+            <h3>人気の記事</h3>
+            <ul>
+                <li>PHPオススメ本</li>
+                <li>PHP MyAdminの使い方</li>
+                <li>今人気のエディタ Top5</li>
+                <li>HTMLの基礎</li>
+            </ul>
+            <!-- 小タイトル + 箇条書きリスト -->
+            <h3>オススメリンク</h3>
+            <ul>
+                <li>インターノウス株式会社</li>
+                <li>XAMPPのダウンロード</li>
+                <li>Eclipseのダウンロード</li>
+                <li>Bracketsのダウンロード</li>
+            </ul>
+            <!-- 小タイトル + 箇条書きリスト -->
+            <h3>カテゴリ</h3>
+            <ul>
+                <li>HTML</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <!-- © -->
+        <p>copyright © internous | 4each blog the which provides A to Z about programming.</p>
+    </footer>
+</body>
+</html>
